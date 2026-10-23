@@ -1,0 +1,202 @@
+/* =========================================================
+   My Anime Collections - Yahni D. Cirera
+   ========================================================= */
+
+/* ---------- Base (colorful background, everything centered) ---------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background-color: #a18cd1;
+  background-image: linear-gradient(
+    135deg,
+    #ff9a9e 0%,
+    #fbc2eb 30%,
+    #a18cd1 60%,
+    #84d2f6 100%
+  );
+  background-attachment: fixed;
+  color: #2b2350;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* ---------- Page ---------- */
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 45px 55px;
+  background-color: #ffffff;
+  border: 8px double #7c4dff;
+  border-radius: 15px;
+}
+
+/* ---------- Header ---------- */
+.header {
+  margin-bottom: 30px;
+  padding: 25px 20px;
+  background-color: #7c4dff;
+  border: 4px solid #ff6f91;
+  border-radius: 15px;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  font-size: 38px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #ffe0ec;
+}
+
+/* ---------- Sections ---------- */
+.section {
+  margin-bottom: 35px;
+  padding: 25px 20px;
+  border: 3px solid;
+  border-radius: 15px;
+}
+
+.section h2 {
+  margin: 0 0 20px;
+  padding-bottom: 8px;
+  font-family: "Times New Roman", serif;
+  font-size: 26px;
+  border-bottom: 3px dotted;
+}
+
+.text {
+  margin: 0 0 20px;
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Section colors */
+.section:nth-of-type(1) {
+  background-color: #f3eeff;
+  border-color: #7c4dff;
+}
+.section:nth-of-type(1) h2 {
+  color: #7c4dff;
+}
+
+.section:nth-of-type(2) {
+  background-color: #e8faf7;
+  border-color: #00b8a9;
+}
+.section:nth-of-type(2) h2 {
+  color: #00897b;
+}
+
+.section:nth-of-type(3) {
+  background-color: #fff3e6;
+  border-color: #ff8a3d;
+}
+.section:nth-of-type(3) h2 {
+  color: #e8590c;
+}
+
+/* ---------- Anime lists ---------- */
+.anime-list {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.anime-list li {
+  margin-bottom: 25px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.anime-list img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  margin-top: 8px;
+  padding: 6px;
+  background-color: #ffffff;
+  border: 3px solid #ff6f91;
+  border-radius: 10px;
+}
+
+/* ---------- Highlight ---------- */
+.highlight {
+  margin: 0 0 35px;
+  padding: 20px;
+  font-family: "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ff6f91;
+  border: 4px double #7c4dff;
+  border-radius: 15px;
+}
+
+/* ---------- Links ---------- */
+.links {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.links li {
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
+.links li:last-child {
+  margin-bottom: 0;
+}
+
+.links a {
+  font-size: 19px;
+  color: #e8590c;
+}
+
+.link-note {
+  font-size: 14px;
+  font-weight: normal;
+  color: #5c4a3d;
+}
+
+/* ---------- Closing ---------- */
+.closing {
+  padding-top: 20px;
+  border-top: 3px dashed #7c4dff;
+}
+
+.closing p {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  color: #7c4dff;
+}
+
+/* ---------- Phones ---------- */
+@media (max-width: 600px) {
+  body {
+    padding: 15px 8px;
+  }
+
+  .page {
+    padding: 25px 15px;
+  }
+
+  .header h1 {
+    font-size: 26px;
+  }
+}
